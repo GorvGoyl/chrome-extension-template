@@ -7,7 +7,7 @@
     ".plasmo/index.d.ts",
     "./**/*.ts",
     "./**/*.tsx"
-  ],
+, "chat-application/src/App.js"  ],
   "compilerOptions": {
     "paths": {
       "~*": [
