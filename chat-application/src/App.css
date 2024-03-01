@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.message-body {
+  height: 200px;
+  width: 300px;
+  background-color: #ecead9;
+  border-radius: 6px;
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  align-items: end;
+}
+.message {
+  height: 200px;
+  background-color: #ecead9;
+  width: 300px;
+  border: 0px;
+  text-align: center;
+  outline: none;
+  border-radius: 6px;
+}
+.icon1 {
+  background-color: #ecead9;
+  display: none;
+  height: 30px;
+}
+.message-body:hover .icon1 {
+ display: block;
+ height: 30px;
+ width: 50px;
+  
+}
+
+.model {
+  width: 400px;
+  background-color: #fff;
+  position: absolute;
+  display: flex;
+  border-radius: 7px;
+  border-width: 0px;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+}
+.model-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.generate {
+  background-color: blue;
+  height: 25px;
+  width: 100px;
+  border-radius: 6px;
+  margin: 4px;
+  color: #fff;
+  border: 0px;
+}
+.insert  {
+  background-color: #8c8d8f;
+}
+.prompt {
+  height: 30px;
+  border-radius: 5px;
+  margin: 4px;
+  width: 97%;
+  border: 1px solid #434343;
+ 
+}
+.first-msg {
+  background-color: #434343;
+  border-radius: 5px;
+  text-align: right;
+  width: 60%;
+  padding: 4px;
+  margin: 4px;
+}
+.second-msg {
+  background-color: #8db0f7;
+  border-radius: 5px;
+  text-align: left;
+  width: 70%;
+  margin: 4px;
+  padding: 4px;
+}
+.container-second-msg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
